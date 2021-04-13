@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="binding_0" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.joint.default_parameters" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.joint.start" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.joint.stop" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton13" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.cartesian.stop" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton15" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.cartesian.start" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton14" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.cartesian.default_parameters" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton41" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J1" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J1" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput21" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J1" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput15" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J3" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput25" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J3" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J3" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput17" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J2" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J2" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput24" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J2" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput16" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J4" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput18" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J4" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput26" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J4" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J5" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput27" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J5" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput19" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J5" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J6" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J6" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput20" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.J6" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput28" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RZ" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput26" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RZ" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider15" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RZ" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput33" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RY" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput31" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RY" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider13" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RY" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput24" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RX" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput29" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RX" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.RX" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput22" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Z" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput25" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Z" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput32" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Z" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider14" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Y" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput30" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Y" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput23" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Y" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.X" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericOutput22" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.X" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="NumericInput21" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.X" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="BasicSlider10" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Trajectory_type" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="TextPicker4" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Zone" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="DropDownBox10" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Cartesian.Write.Velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="DropDownBox11" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.Zone" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="DropDownBox8" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Joint.Write.Velocity" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="DropDownBox9" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.cartesian.home" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Server_t:abb_control.Command.joint.home" attribute="value" />
+<Target xsi:type="brease" contentRefId="IRB120MovePageContent" widgetRefId="MomentaryPushButton4" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="NavigationContent" height="100" width="1920" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="1920" zIndex="0" borderStyle="none" backColor="rgba(213, 226, 231, 1)" opacity="0.8" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="5" left="20" width="1880" height="90" zIndex="1" borderStyle="none" cornerRadius="10px" backColor="rgba(47, 111, 139, 1)" opacity="1" />
+  </Widgets>
+</Content>

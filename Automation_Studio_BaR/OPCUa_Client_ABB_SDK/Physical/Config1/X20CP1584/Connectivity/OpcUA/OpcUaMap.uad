@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.90">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="Server_t">
+        <Variable Name="abb_control">
+          <Variable Name="Joint">
+            <Variable Name="Write">
+              <Variable Name="J1" />
+              <Variable Name="J2" />
+              <Variable Name="J3" />
+              <Variable Name="J4" />
+              <Variable Name="J5" />
+              <Variable Name="J6" />
+              <Variable Name="Velocity" />
+              <Variable Name="Zone" />
+            </Variable>
+            <Variable Name="SDK">
+              <Variable Name="J1" />
+              <Variable Name="J2" />
+              <Variable Name="J3" />
+              <Variable Name="J4" />
+              <Variable Name="J5" />
+              <Variable Name="J6" />
+              <Variable Name="Velocity" />
+              <Variable Name="Zone" />
+            </Variable>
+          </Variable>
+          <Variable Name="Cartesian">
+            <Variable Name="Write">
+              <Variable Name="X" />
+              <Variable Name="Y" />
+              <Variable Name="Z" />
+              <Variable Name="RX" />
+              <Variable Name="RY" />
+              <Variable Name="RZ" />
+              <Variable Name="Velocity" />
+              <Variable Name="Zone" />
+              <Variable Name="Trajectory_type" />
+            </Variable>
+            <Variable Name="SDK">
+              <Variable Name="X" />
+              <Variable Name="Y" />
+              <Variable Name="Z" />
+              <Variable Name="RX" />
+              <Variable Name="RY" />
+              <Variable Name="RZ" />
+              <Variable Name="Velocity" />
+              <Variable Name="Zone" />
+              <Variable Name="Trajectory_type" />
+            </Variable>
+          </Variable>
+          <Variable Name="Command">
+            <Variable Name="joint">
+              <Variable Name="start" />
+              <Variable Name="stop" />
+              <Variable Name="default_parameters" />
+              <Variable Name="home" />
+            </Variable>
+            <Variable Name="cartesian">
+              <Variable Name="start" />
+              <Variable Name="stop" />
+              <Variable Name="default_parameters" />
+              <Variable Name="home" />
+            </Variable>
+          </Variable>
+          <Variable Name="in_position" />
+          <Variable Name="is_connected" />
+          <Variable Name="state" />
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

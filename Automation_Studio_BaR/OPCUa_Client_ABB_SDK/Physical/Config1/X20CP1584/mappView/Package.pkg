@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.2.98?>
+<Package SubType="mappViewControl" PackageType="mappViewControl" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Visualizat.vis</Object>
+    <Object Type="File">Config.mappviewcfg</Object>
+    <Object Type="File">Binding.binding</Object>
+  </Objects>
+</Package>
