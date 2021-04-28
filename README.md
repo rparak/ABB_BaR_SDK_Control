@@ -20,16 +20,6 @@ The project is focused on a simple demonstration of client / server communicatio
 
 ABB's PC Software Development Kit (PC SDK) is a software tool, which enables programmers to develop customized operator interfaces for the robot controller.
 
-**Appendix:**
-
-Example of a simple data processing application (OPC UA):
-
-[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
-
-Example of a simple data processing application (Robot Web Services):
-
-[ABB Robot - Data Processing](https://github.com/rparak/ABB_Robot_data_processing/)
-
 **MappView (HMI):**
 ```bash
 Simulation Address
@@ -39,6 +29,16 @@ http://PLC_ADDRESS:81/index.html?visuId=abb_move
 ```
 
 The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
+
+**Appendix:**
+
+Example of a simple data processing application (OPC UA):
+
+[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
+
+Example of a simple data processing application (Robot Web Services):
+
+[ABB Robot - Data Processing](https://github.com/rparak/ABB_Robot_data_processing/)
 
 <p align="center">
   <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/sdk_diagram.png" width="800" height="450">
