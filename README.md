@@ -14,7 +14,28 @@ B&R Automation: https://www.br-automation.com/en/downloads/#categories=Software-
 
 ## Project Description:
 
+The project is focused on a simple demonstration of client / server communication via OPC UA, which is implemented in C# Console App. (Server - B&R Automation PLC, Client - C# Console App). The console application communicates with the ABB robot via the PC Software Development Kit (PC SDK) from ABB. The application uses performance optimization using multi-threaded programming.
+
+Note:
 ABB's PC Software Development Kit (PC SDK) is a software tool, which enables programmers to develop customized operator interfaces for the robot controller.
+
+Example of a simple data processing application (OPC UA):
+
+[OPC UA B&R Automation - Data Processing](https://github.com/rparak/OPCUA_Simple)
+
+Example of a simple data processing application (Robot Web Services):
+
+[ABB Robot - Data Processing](https://github.com/rparak/ABB_Robot_data_processing/)
+
+**MappView (HMI):**
+```bash
+Simulation Address
+PLC_ADDRESS = localhost or 127.0.0.1
+
+http://PLC_ADDRESS:81/index.html?visuId=acp_trak_dt
+```
+
+The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
 
 <p align="center">
   <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/sdk_diagram.png" width="800" height="450">
@@ -30,6 +51,10 @@ ABB's PC Software Development Kit (PC SDK) is a software tool, which enables pro
 ```
 
 ## Application:
+
+## ABB RobotStudio:
+
+## HMI (Human-Machine Interface) - MappView:
 
 ## Result:
 
