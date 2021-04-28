@@ -55,6 +55,10 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 
 ## ABB RobotStudio:
 
+<p align="center">
+  <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/abb_app.PNG" width="800" height="450">
+</p>
+
 ## HMI (Human-Machine Interface) - MappView:
 
 ## Result:
