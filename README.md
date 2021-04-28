@@ -62,8 +62,8 @@ The project was realized at Institute of Automation and Computer Science, Brno U
 ## HMI (Human-Machine Interface) - MappView:
 
 <p align="center">
-  <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/mv_1.png" width="800" height="400">
-  <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/mv_2.png" width="800" height="400">
+  <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/mv_1.png" width="800" height="450">
+  <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/mv_2.png" width="800" height="450">
 </p>
 
 ## Result:
