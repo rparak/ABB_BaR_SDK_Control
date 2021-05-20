@@ -57,7 +57,6 @@ ABB RobotStudio Project
 [ RobotStudio Data Format File ] /RSPAG_File/
 [ Rapid Program ] /Rapid/T_ROB1/
 
-
 /Automation_Studio_BaR/OPCUa_Client_ABB_SDK/ -> Automatio Studio B&R Project
 [ Main Program (control of the main state machine) ] /Logical/Server_t/Main.c
 [ MappView Visualization                           ] /Logical/mappView/
