@@ -50,7 +50,17 @@ Example of a simple data processing application (Robot Web Services):
 **Repositary [/ABB_BaR_SDK_Control/]:**
 
 ```bash
-[] /.../
+/ACOPOSTrak_OPCUA_Unity_App/ -> C# Application
+[ Data Processing              ] /Assets/Script/ACOPOSTrak_Control/
+[ Object / Light Control, etc. ] /Assets/Script/Service/
+[ Individual objects (.blend)  ] /Assets/Object/Blender/
+[ Scene of the Application     ] /Assets/Scenes/
+
+/acoposTrak_simple_control/ -> Automatio Studio B&R Project
+[ Main Program (control of the main state machine)                  ] /Logical/Technology/tCTRL_m/Main.c
+[ Header File (auxiliary functions, declaration of variables, etc.) ] /Logical/Technology/tCTRL_m/Main.h
+[ MappView Visualization                                            ] /Logical/mappView/
+[ ACOPOStrak Configuration (Sectors, Shuttles, etc.)                ] /Physical/Config1/X20CP3687X/mappMotion/TrakOval/
 ```
 
 ## Application:
