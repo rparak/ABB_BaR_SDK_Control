@@ -3,7 +3,7 @@
 // ------------------------------------------------------------------------------------------------------------------------ //
 MIT License
 
-Copyright(c) 2020 Roman Parak
+Copyright(c) 2021 Roman Parak
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -109,13 +109,9 @@ namespace ABB_BR_OPCUa_SKD
         static void Main(string[] args)
         {
             // ------------------------ Initialization { Console app. Write } ------------------------//
-            Console.WriteLine("===============================================================================");
-            Console.WriteLine("=============== RobotStudio SDK (Software development kit) ====================");
-            Console.WriteLine("================ OPCUa Communication {B&R Auotmation PLC} =====================");
-            Console.WriteLine("===============================================================================");
-            Console.WriteLine("\n");
-            Console.WriteLine("Autor: Roman Parak");
-            Console.WriteLine("\n");
+            Console.WriteLine("[INFO] RobotStudio SDK (Software development kit)");
+            Console.WriteLine("[INFO] OPCUa Communication {B&R Auotmation PLC}");
+            Console.WriteLine("[INFO] Author: Roman Parak");
 
             // ------------------------ Initialization { OPCUa Config.} ------------------------//
             // PLC IP Address
@@ -123,7 +119,7 @@ namespace ABB_BR_OPCUa_SKD
             // PLC Port
             string port_adr_plc = "4840";
             // Write IP, PORT {PLC}
-            Console.WriteLine("B&R Automation (PLC: IP Address - {0}, Port - {1})", ip_adr_plc, port_adr_plc);
+            Console.WriteLine("[INFO] B&R Automation (PLC: IP Address - {0}, Port - {1})", ip_adr_plc, port_adr_plc);
 
             // ------------------------ Main Block { Control of the PLC (B&R) } ------------------------//
             try
@@ -159,7 +155,7 @@ namespace ABB_BR_OPCUa_SKD
 
                 while (true)
                 {
-                    Console.WriteLine("Connect to RobotStudio ABB SDK (y/n):");
+                    Console.WriteLine("[INFO] Connect to RobotStudio ABB SDK (y/n):");
                     // Connect sdk - var
                     string connect_sdk = Convert.ToString(Console.ReadLine());
 
@@ -186,7 +182,7 @@ namespace ABB_BR_OPCUa_SKD
                         abb_sdk_rw_Thread.IsBackground = true;
                         abb_sdk_rw_Thread.Start();
 
-                        Console.WriteLine("Stop RobotStudio SDK ABB (y):");
+                        Console.WriteLine("[INFO] Stop RobotStudio SDK ABB (y):");
                         // Stop sdk - var
                         string stop_rs = Convert.ToString(Console.ReadLine());
 
