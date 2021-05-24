@@ -8,8 +8,6 @@ ABB RobotStudio, B&R Automation Studio
 ```
 ABB RS: https://new.abb.com/products/robotics/robotstudio/downloads
 
-ABB Developer Centre: https://developercenter.robotstudio.com
-
 B&R Automation: https://www.br-automation.com/en/downloads/#categories=Software-1344987434933
 
 ## Project Description:
@@ -19,6 +17,8 @@ The project is focused on a simple demonstration of client / server communicatio
 **Notes:**
 
 ABB's PC Software Development Kit (PC SDK) is a software tool, which enables programmers to develop customized operator interfaces for the robot controller.
+
+ABB Developer Centre: https://developercenter.robotstudio.com
 
 **Unpacking a station (/RSPAG_File/ABB_APP_BR_UA_SDK.rspag):**
 1. On the File tab, click Open and then browse to the folder and select the Pack&Go file, the Unpack & Work wizard opens.
