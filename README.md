@@ -60,7 +60,7 @@ Example of a simple data processing application (Robot Web Services):
 **Repositary [/ABB_BaR_SDK_Control/]:**
 
 ```bash
-/C_Sharp_App/ABB_BR_OPCUa_SKD/ABB_BR_OPCUa_SKD/ -> C# Application
+/C_Sharp_App/ABB_BR_OPCUa_SKD/ -> C# Application
 [ Main Program (SDK, OPCUA Client, etc. ] Program.cs
 
 ABB RobotStudio Project
