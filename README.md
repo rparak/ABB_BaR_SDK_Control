@@ -6,9 +6,11 @@
 ```bash
 ABB RobotStudio, B&R Automation Studio
 ```
-ABB RS: https://new.abb.com/products/robotics/robotstudio/downloads
 
-B&R Automation: https://www.br-automation.com/en/downloads/#categories=Software-1344987434933
+| Software/Package      | Link                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------- |
+| ABB RobotStudio       | https://new.abb.com/products/robotics/robotstudio/downloads                           |
+| B&R Automation        | https://www.br-automation.com/en/downloads/#categories=Software-1344987434933         |
 
 ## Project Description:
 
