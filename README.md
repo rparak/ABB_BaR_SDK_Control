@@ -87,10 +87,6 @@ ABB RobotStudio Project
   <img src="https://github.com/rparak/ABB_BaR_SDK_Control/blob/main/images/mv_2.png" width="800" height="450">
 </p>
 
-## Result:
-
-Youtube: ...
-
 ## Contact Info:
 Roman.Parak@outlook.com
 
