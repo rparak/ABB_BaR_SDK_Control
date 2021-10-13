@@ -90,5 +90,17 @@ ABB RobotStudio Project
 ## Contact Info:
 Roman.Parak@outlook.com
 
+## Citation (BibTex)
+```bash
+@misc{RomanParak_ABB_BaR,
+  author = {Roman Parak},
+  title = {System integration of the communication interface between ABB robots and the B&R Automation control system},
+  year = {2020-2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/rparak/ABB_BaR_SDK_Control/}}
+}
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
