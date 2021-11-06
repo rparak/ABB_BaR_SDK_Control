@@ -38,7 +38,7 @@ PLC_ADDRESS = localhost or 127.0.0.1
 http://PLC_ADDRESS:81/index.html?visuId=abb_move
 ```
 
-The project was realized at Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
+The project was realized at the Institute of Automation and Computer Science, Brno University of Technology, Faculty of Mechanical Engineering (NETME Centre - Cybernetics and Robotics Division).
 
 **Appendix:**
 
